@@ -1,4 +1,4 @@
-FROM docker.io/opensearchproject/opensearch-dashboards:1.2.0
+FROM docker.io/opensearchproject/opensearch-dashboards:1.3.4
 USER 0
 
 # usermod chowns the uid of files, but not the gid - we chown both later
